@@ -20,7 +20,7 @@ public class DemoApplication {
 	    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 	    LocalDateTime now = LocalDateTime.now();
 	    System.out.println(dtf.format(now)); //2016/11/16 12:08:43
-		return "Current time is: " + dtf.format(now) + " and I'm happy to announce that Spring is here! Delivered by Gitlab";
+		return "Current time is: " + dtf.format(now) + " and I'm happy to announce that Spring is here! Delivered by Github & Jenkins X";
 	}
 
 	public static void main(String[] args) {
